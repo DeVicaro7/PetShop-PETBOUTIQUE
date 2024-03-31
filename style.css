@@ -1,0 +1,132 @@
+body {
+    background-color: #fff;
+    color: #3c184e;
+    font-family: sans-serif;
+}
+span {
+    font-weight: bold;
+}
+.container {
+    max-width: 960px;
+}
+.banner{
+    background-image: url('img/banner-topo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-sizing: content-box;
+    padding: 8% 7%;
+    width: 100%;
+    margin: 1% auto;
+}
+.logotipo {
+    width: 20%;
+    margin: 1% 0% 8% 0%;
+}
+.banner .logotipo img {
+    box-sizing: content-box;
+    text-align: left;
+    width: 10%;
+    height: 20%;
+}
+.banner .logotipo .h2 {
+    font-size: 2%;
+}
+.banner .logotipo .h6 {
+    font-size: 1%;
+}
+.banner .logotipo h2, .banner .logotipo h6 {
+    display: inline;
+}
+.banner .titulo-banner {
+    background-color: #ffffffc4;
+    box-shadow: 5px 5px 10px 5px #1f26875e;
+    opacity: 80%;
+    border-radius: 5px;
+    text-align: center;
+    height: 20vh;
+    padding: 8%;
+}
+.banner .titulo-banner h1 {
+    font-size: 4vh;
+    font-weight: bold;
+}
+.banner .titulo-banner button {
+    font-size: 1.5vh;
+    width: 20%;
+    background-color: #3c184e;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+.painel-principal {
+    text-align: center;
+    padding: 2%;
+    margin: 1% 8% 8% 10%;
+}
+.painel-principal ul {
+    text-align: justify;
+    list-style-type: square;
+    line-height: 6vh;
+    margin: 5% auto; 
+}
+.painel-principal .imagens img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px #0000005c;
+    width: 18%;
+    display: inline;
+}
+.redes-sociais, .redes-sociais-2 {
+    background-color: #3c184e;
+    color: #fff;
+    height: 20vh;
+    text-align: center;
+    padding: 15%;
+    width: 85%;
+    margin: 2% auto;
+}
+.redes-sociais p, .redes-sociais-2 p {
+    padding-bottom: 3vh;
+    font-size: 3.9vh;
+}
+.redes-sociais img, .redes-sociais-2 img {
+    width: 5%;
+    height: 20%;
+    padding: 2%;
+}
+.marcas {
+    text-align: center;
+    font-size: 3.1vh;
+    padding: 2% 20% 2% 20%;
+    margin: 5% auto;
+}
+.marcas .imagens-marcas img {
+    width: 25%;
+    height: 30%;
+    padding: 2%;
+    box-sizing: content-box;
+}
+.mapa {
+    margin: 5% auto;
+    text-align: center;
+}
+.mapa h2 {
+    font-size: 3.9vh;
+}
+.mapa p {
+    padding: 2%;
+}
+.creditos-dev {
+    background-color: #3c184e;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+.creditos-dev a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
